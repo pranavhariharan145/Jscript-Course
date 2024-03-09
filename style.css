@@ -1,0 +1,42 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    border: solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+button{
+    font-size: 30px;
+    background-color: #438888;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    border: 10pxsolid #438888;
+}
+button:hover
+{
+    background-color: #43888893;
+    border: solid white;
+    transition: 0.2s;
+    
+}
+#btncontainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
