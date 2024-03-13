@@ -85,27 +85,88 @@ console.log(Random)
 //     }
 // }
 
-let Fahrenheit = document.getElementById("Fahrenheit")
-let Celcius = document.getElementById("Celcius")
-let ans = document.getElementById("answer")
-let text = document.getElementById("textbox")
-let temp
-function convert()
-{
-    if(Fahrenheit.checked)
-    {
-        temp = Number(text.value)
-        temp = temp * (9/5) + 32
-        ans.textContent = temp.toFixed(2)
-    }
-    else if(Celcius.checked)
-    {
-        temp = Number(text.value)
-        temp = 5/9 * (temp - 32)
-        ans.textContent = temp.toFixed(2)
+// let Fahrenheit = document.getElementById("Fahrenheit")
+// let Celcius = document.getElementById("Celcius")
+// let ans = document.getElementById("answer")
+// let text = document.getElementById("textbox")
+// let temp
+// function convert()
+// {
+//     if(Fahrenheit.checked)
+//     {
+//         temp = Number(text.value)
+//         temp = temp * (9/5) + 32
+//         ans.textContent = temp.toFixed(2)
+//     }
+//     else if(Celcius.checked)
+//     {
+//         temp = Number(text.value)
+//         temp = 5/9 * (temp - 32)
+//         ans.textContent = temp.toFixed(2)
 
-    }
-    else{
-        ans.textContent = "Your Answer"
-    }
-}
+//     }
+//     else{
+//         ans.textContent = "Your Answer"
+//     }
+// }
+
+
+// For Each meathod
+// iterate thro elements and apply specific function
+
+// let numbers = [1,2,3,4,5]
+// numbers.forEach(display)
+
+// function display(element)
+// {
+//     console.log(element*2)
+// }
+
+// function double(e)
+// {
+   
+// }
+// numbers.forEach(double)
+
+// .map function
+// it accepts the callback and apply to the function in bracket it is same
+// as for each but it returns an array but for each doesnt
+// let numbers = [1,2,3,4,5]
+// let ans = numbers.map(square)
+// function square(n)
+// {
+//     return Math.pow(n, 2)
+// }
+// console.log(ans)
+
+// Uppercase 
+
+// let name = ["Spongebob", "Patrick", "Squiward", "Sandy"]
+// let val = name.map(ucase)
+// console.log(val)
+// function ucase(names)
+// {
+//     return names.toUpperCase()
+// }
+
+// Filter
+// let ages = [16,17,18,18,19,20,60]
+// let ans = ages.filter(isadult)
+// console.log(ans)
+
+// function isadult(num)
+// {
+//     return num > 18
+// }
+
+// simple arrow function
+
+// let hello = (name, age ) => {
+//     console.log(`Hello ${name}`)
+//     console.log(`You are ${age} old`)
+// }
+// hello("pranav", 20)
+
+// let num = [1,2,3,4,5]
+// let squares = num.map((element) => Math.pow(element, 2))
+// console.log(squares)
